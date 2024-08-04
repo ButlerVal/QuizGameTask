@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 130%;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#quizQuestions {
+    padding: 50px;
+}
+
+h1 {
+    margin-top: 50px; 
+    padding: 0px 110px;
+}
+
+span {
+    color: #BB2F39;
+}
+
+p {
+    margin: 20px 0px;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.options {
+    margin-bottom: 20px;
+    text-align: left;
+}
+  
+.option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7D357A;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#retry {
+    margin: auto;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.hidden {
+    display: none;
+}
